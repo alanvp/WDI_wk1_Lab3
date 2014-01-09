@@ -36,13 +36,6 @@ smoothie_ingredients = {
 # and output a mixed string of characters
 # Be sure to remove the spaces, as we don't want any air bubbles in our smoothie!
 
-#
-
-
-
-
-
-
 
 # create a class called Blender
 # It should have a method that takes an array of ingredients and returns a mixed string of characters.
@@ -50,8 +43,7 @@ smoothie_ingredients = {
 # FOR SAFETY'S SAKE When you create a new blender by default it should be off.
 # Blend the the smoothie array
 
-class Blender
-  
+class Blender  
   def initialize()
      @power = false
      puts @power == true ? "Blender is on" : "Blender is off"      
