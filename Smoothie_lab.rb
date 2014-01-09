@@ -56,7 +56,7 @@ class Blender
       ingredients_no_spaces = ingredients_str.delete(" ")
       blended = ingredients_no_spaces.split("").shuffle.join
       puts blended
-    else puts "Blender is off"  
+    else puts "Sorry, Can't blend, blender is off"  
     end  
   end
 
