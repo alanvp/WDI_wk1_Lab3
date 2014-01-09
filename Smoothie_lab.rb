@@ -61,7 +61,6 @@ class Blender
   end
 
   def power(status)
-    puts "Turning blender on"
     @power = status
     puts @power == true ? "Blender is on" : "Blender is off" 
   end
